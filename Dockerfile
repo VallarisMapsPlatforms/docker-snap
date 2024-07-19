@@ -1,4 +1,5 @@
 FROM python:3.10.14-bullseye
+LABEL maintainer="Vallaris Maps Platform contact@vallarismaps.com"
 
 RUN apt update
 RUN DEBIAN_FRONTEND=noninteractive TZ=Etc/UTC apt -y install tzdata
@@ -20,3 +21,5 @@ ENV PATH=$PATH:/usr/local/esa-snap/bin
 RUN rm -r /snap
 
 WORKDIR /mnt
+
+CMD ["gpt"]
