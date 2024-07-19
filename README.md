@@ -1,7 +1,13 @@
-# docker-snap
-An Docker image build with ESA SNAP Toolboxes and Python SNAP Environment
+# ESA SNAP Container
+An Docker image build with ESA SNAP Toolboxes and Python SNAP Environment  
+From [SNAP - ESA's SentiNel Application Platform](https://step.esa.int/main/download/snap-download/)
+
+### Tags
+- [latest](https://github.com/VallarisMapsPlatforms/docker-snap), [10.0](https://github.com/VallarisMapsPlatforms/docker-snap) ESA SNAP All Toolboxes 10.0, Python 3.10
 
 ### Pulling from Docker Hub
+[Docker Repository](https://hub.docker.com/r/vallarismaps/esa-snap)  
+
 ``` shell
 docker pull vallarismaps/esa-snap
 ```
